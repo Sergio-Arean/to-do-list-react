@@ -1,0 +1,10 @@
+.task-container {
+    background-color: #282B00;
+
+    display:flex;
+    justify-content: space-between;
+
+    padding: 1rem;
+
+    width: 100%;
+}
