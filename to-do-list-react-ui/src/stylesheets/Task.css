@@ -5,6 +5,13 @@
     justify-content: space-between;
 
     padding: 1rem;
+    border-radius: 10px;
 
     width: 100%;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color:#320C36;
+
 }
