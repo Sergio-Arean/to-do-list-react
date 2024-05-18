@@ -1,7 +1,7 @@
 .task-container {
     background-color: #282B00;
 
-    display:flex;
+    display: flex;
     justify-content: space-between;
 
     padding: 1rem;
@@ -10,8 +10,29 @@
     width: 100%;
 }
 
+.title {
+    overflow-wrap: anywhere;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.icon {
+    transition: all .2s;
+
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
+
+
+
+
+
 .completed {
     text-decoration: line-through;
-    background-color:#320C36;
+    background-color: #320C36;
 
 }

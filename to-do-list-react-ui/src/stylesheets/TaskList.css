@@ -1,23 +1,20 @@
 .list-container {
-    /* background-color: #464D00; */
-  
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-  
-    width: 100%;
-  
-    
-  
-    /* margin-block: 1rem; */
-    padding: 1rem;
-  
-    border-radius: 10px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 
-  @media (min-width:768px) {
-    .list-container {
-      width: 70%;
-    }
+  width: 100%;
+
+  padding: 1rem;
+
+  border-radius: 10px;
+
+
+}
+
+@media (min-width:768px) {
+  .list-container {
+    width: 50%;
   }
+}

@@ -6,7 +6,6 @@ function App() {
   return (
     <section className="content">
       <h1 className="title">To Do List</h1>
-
       <TaskList />
     </section>
   )
